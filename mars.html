@@ -1,0 +1,300 @@
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <title>NASA API Demo App</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-2" href="index.html">
+        NASA API Demo
+      </a>
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item ms-3">
+          <a class="nav-link" href="events.html">Event Tracker</a>
+        </li>
+        <li class="nav-item ms-3">
+          <a class="nav-link" href="asteroids.html">Near Earth Asteroids</a>
+        </li>
+        <li class="nav-item ms-3">
+          <a class="nav-link" href="mars.html">Mars Rover Photos</a>
+        </li>
+       
+      </ul>
+    </div>
+  </nav>
+
+  
+
+<div class="container mt-5">
+    <form action="mars.html" method='post' class="mx-auto">
+        <input type="hidden" name="csrfmiddlewaretoken" value="GbLyoShl2ftVwGvqob4MrO30vBha8hkSq9ZQN8Qn4hc0weyhKsZGmo9pMLYJekn8">
+        <table class="table table-borderless mt-4">
+            <tbody>
+                <tr>
+                    <td class="col-md-1"><label class="h5">Rover:</label></td>
+                    <td class="col-md-2">
+                        <select class="form-select" name="rover" aria-label="Default select example" required>
+                            <option value="Spirit" selected >Spirit</option>
+                            <option value="Opportunity" >Opportunity</option>
+                            <option value="Curiosity" >Curiosity</option>
+                        </select>
+                    </td>
+                    <td class="col-md-1"></td>
+                    <td class="col-md-1"><label class="h5">Camera:</label></td>
+                    <td class="col-md-2">
+                        <select class="form-select" name="camera" aria-label="Default select example"
+                            required>
+                            <option value="navcam" selected >NAVCAM</option>
+                            <option value="rhaz" >RHAZ</option>
+                            <option value="fhaz" >FHAZ</option>
+                        </select>
+                    </td>
+                    <td>
+                        <div class="form-group w-25 mx-auto">
+                            <button type="submit" id="create-btn" class="form-control btn btn-primary">Fetch</button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</div>
+
+
+<div class="w3-container mt-5">
+    <div class="container-fluid">
+        <div class="row">
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130364068EFF08AKP1963L0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130364068EFF08AKP1963R0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130364919EFF0900P1817L0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130364919EFF0900P1817R0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130364970EFF0900P1817L0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130364970EFF0900P1817R0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130365005EFF0900P1817L0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130365005EFF0900P1817R0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130366302EFF0900P1835L0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130366302EFF0900P1835R0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130366339EFF0900P1835L0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130366339EFF0900P1835R0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130366436EFF0900P1835L0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130366436EFF0900P1835R0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130366492EFF0900P1835L0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130366492EFF0900P1835R0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130366542EFF0900P1835L0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130366542EFF0900P1835R0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130366635EFF0900P1835L0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130366635EFF0900P1835R0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130366782EFF0900P1835L0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 mt-5">
+                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/n/045/2N130366782EFF0900P1835R0M1-BR.JPG" width="300" height="250" class="rounded" />
+                <div class="card-body">
+                    <p><strong>Rover name:</strong> Spirit</p>
+                    <p><strong>Camera:</strong> Navigation Camera (NAVCAM)</p>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

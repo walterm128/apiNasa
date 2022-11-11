@@ -1,0 +1,223 @@
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <title>NASA API Demo App</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-2" href="index.html">
+        NASA API Demo
+      </a>
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item ms-3">
+          <a class="nav-link" href="events.html">Event Tracker</a>
+        </li>
+        <li class="nav-item ms-3">
+          <a class="nav-link" href="asteroids.html">Near Earth Asteroids</a>
+        </li>
+        <li class="nav-item ms-3">
+          <a class="nav-link" href="mars.html">Mars Rover Photos</a>
+        </li>
+       
+      </ul>
+    </div>
+  </nav>
+
+  
+
+<h1 class="display-4 text-center mt-5">Near Earth Asteroids</h1>
+
+
+<table class="table table-lg table-bordered table-striped w-75  mx-auto mt-5">
+    <thead>
+        <tr class="table-info text-center">
+            <th>Name</th>
+            <th colspan="2">Estimated Diameter</th>
+            <th class="col-md-3">Is Potentially Hazardous</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="table-secondary text-center">
+            <td></td>
+            <td><strong>Min (meters)</strong></td>
+            <td><strong>Max (meters)</strong></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <td>285638 (2000 SO10)</td>
+            <td>829.0008514522</td>
+            <td>1853.7022572523</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>(2006 HU50)</td>
+            <td>30.5179232594</td>
+            <td>68.2401509401</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>(2010 MP1)</td>
+            <td>139.4938229344</td>
+            <td>311.9176705226</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>(2014 SH144)</td>
+            <td>26.58</td>
+            <td>59.4346868419</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>(2015 FN35)</td>
+            <td>48.3676488219</td>
+            <td>108.1533506775</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>(2016 DW1)</td>
+            <td>17.561231848</td>
+            <td>39.2681081809</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>(2018 BK5)</td>
+            <td>63.7609789875</td>
+            <td>142.5738833281</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>(2018 LC1)</td>
+            <td>27.8326768072</td>
+            <td>62.2357573367</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>(2020 OK1)</td>
+            <td>44.1118199997</td>
+            <td>98.6370281305</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>(2020 RC)</td>
+            <td>105.8168859331</td>
+            <td>236.6137501138</td>
+            <td class="text-center">
+                
+                    No
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>(2021 DC1)</td>
+            <td>15.0160247905</td>
+            <td>33.5768521834</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>(2022 FR1)</td>
+            <td>6.3176414818</td>
+            <td>14.1266758109</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>(2022 FM2)</td>
+            <td>14.4728805126</td>
+            <td>32.3623446563</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
