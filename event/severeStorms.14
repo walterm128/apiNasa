@@ -44,15 +44,30 @@
 
   
 
-<h1 class="display-3 text-center mt-2">Imagen astronómica del día (APOD)</h1>
 
-<div class="container-fluid mt-5 text-center" style="height: 100%;">
-    
-    <img src="https://apod.nasa.gov/apod/image/2312/TorchedDust_HubbleMecone_960.jpg" class="text-center mt-2 mx-auto" alt="Stars Versus Dust in the Carina Nebula" width="100%" />
-    
-    <p class="h2 mt-3"> (2023-12-06)</p>
-    <p class="mt-3 m-5">Son estrellas versus polvo en la Nebulosa Carina y las estrellas están ganando. Más precisamente, la luz energética y los vientos de las estrellas masivas recién formadas se están evaporando y dispersando los polvorientos viveros estelares en los que se formaron. Ubicados en la Nebulosa Carina y dentro de una región conocida informalmente como Montaña Mística, la apariencia de estos pilares está dominada por polvo marrón opaco a pesar de que está compuesto principalmente de gas hidrógeno transparente. Aunque algunas de las columnas de polvo parecen antorchas, sus extremos no están en llamas, sino que están iluminados por estrellas cercanas. A unos 7.500 años luz de distancia, la imagen presentada fue tomada con el Telescopio Espacial Hubble y resalta una región interior de Carina conocida como HH1066 que abarca casi un año luz. Dentro de unos pocos millones de años, las estrellas probablemente vencerán por completo y las antorchas de polvo se evaporarán por completo.</p>
-</div>
+<table class="table table-lg table-bordered table-striped w-75  mx-auto mt-5">
+    <thead>
+        <tr class="table-info text-center">
+            <th>Title</th>
+            <th>Description</th>
+            <th>Source</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr>
+            <td>Tropical Cyclone Michaung</td>
+            <td>None</td>
+            <td>
+                
+                    <a href="https://eonet.gsfc.nasa.gov/api/v3/events/EONET_6457" target="_blank">https://www.metoc.navy.mil/jtwc/products/io0823.tcw</a>
+                
+            </td>
+        </tr>
+        
+    </tbody>
+</table>
+
 
 
 
