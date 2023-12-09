@@ -44,15 +44,9 @@
 
   
 
-<h1 class="display-3 text-center mt-2">Imagen astronómica del día (APOD)</h1>
 
-<div class="container-fluid mt-5 text-center" style="height: 100%;">
-    
-    <img src="https://apod.nasa.gov/apod/image/2312/_MG_4553_rawfile1024.jpg" class="text-center mt-2 mx-auto" alt="Pic du Pleiades" width="100%" />
-    
-    <p class="h2 mt-3"> (2023-12-09)</p>
-    <p class="mt-3 m-5">Cerca del amanecer del 19 de noviembre, las Pléyades se alzaban en un cielo todavía oscuro sobre los Pirineos franceses. Pero justo antes del amanecer se capturó un momento fortuito en esta única exposición de 3 segundos; Una brillante racha de meteoritos pareció perforar el corazón del cúmulo de estrellas galácticas. Desde la perspectiva de la cámara, el cúmulo de estrellas y el meteoro estaban colocados directamente sobre el observatorio de la cima de la montaña en el Pic du Midi de Bigorre. Y aunque los astrónomos podrían considerar que las Pléyades están relativamente cerca, el grano de polvo que se vaporiza a medida que avanza a través de la atmósfera superior del planeta Tierra en realidad no alcanzó el apretado grupo de estrellas jóvenes del cúmulo por unos 400 años luz. Mientras grababa una serie de timelapse del cielo nocturno, la cámara y el teleobjetivo se fijaron a un trípode en las pistas ciclistas del Col du Tourmalet del Tour de Francia, a unos 5 kilómetros del Pic du Midi.</p>
-</div>
+    <h1 class="display-3 text-center mt-5">No events found</h1>
+
 
 
 
