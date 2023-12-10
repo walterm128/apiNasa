@@ -44,15 +44,9 @@
 
   
 
-<h1 class="display-3 text-center mt-2">Imagen astronómica del día (APOD)</h1>
 
-<div class="container-fluid mt-5 text-center" style="height: 100%;">
-    
-    <img src="https://apod.nasa.gov/apod/image/2312/BigDipperMt2_Cullen_960.jpg" class="text-center mt-2 mx-auto" alt="Big Dipper over Pyramid Mountain" width="100%" />
-    
-    <p class="h2 mt-3"> (2023-12-10)</p>
-    <p class="mt-3 m-5">¿Cuándo aprendiste por primera vez a identificar este grupo de estrellas? Aunque son familiares para muchas personas en todo el mundo, diferentes culturas han asociado este asterismo con diferentes íconos y folclore. Conocidas en Estados Unidos como la Osa Mayor, las estrellas forman parte de una constelación designada por la Unión Astronómica Internacional en 1922 como la Osa Mayor (Osa Mayor). Los nombres de estrellas reconocidos de estas estrellas son (de izquierda a derecha) Alkaid, Mizar/Alcor, Alioth, Megrez, Phecda, Merak y Dubhe. Por supuesto, es poco probable que las estrellas de una constelación determinada estén físicamente relacionadas. Pero, sorprendentemente, la mayoría de las estrellas Big Dipper parecen dirigirse en la misma dirección a medida que surcan el espacio, una propiedad que comparten con otras estrellas repartidas en un área aún mayor en el cielo. Su movimiento común medido sugiere que todos pertenecen a un cúmulo estelar cercano y suelto, que se cree que está en promedio a sólo 75 años luz de distancia y hasta 30 años luz de diámetro. El grupo se conoce más propiamente como Grupo en Movimiento de la Osa Mayor. La imagen destacada capturó las estrellas icónicas recientemente sobre Pyramid Mountain en Alberta, Canadá. Seminario web Night Sky Network: editor APOD para revisar las mejores imágenes espaciales de 2023</p>
-</div>
+    <h1 class="display-3 text-center mt-5">No events found</h1>
+
 
 
 
