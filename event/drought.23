@@ -44,15 +44,9 @@
 
   
 
-<h1 class="display-3 text-center mt-2">Imagen astronómica del día (APOD)</h1>
 
-<div class="container-fluid mt-5 text-center" style="height: 100%;">
-    
-    <img src="https://apod.nasa.gov/apod/image/2312/ArcticNight_Cobianchi_1080.jpg" class="text-center mt-2 mx-auto" alt="Aurora and Milky Way over Norway" width="100%" />
-    
-    <p class="h2 mt-3"> (2023-12-12)</p>
-    <p class="mt-3 m-5">¿Qué son estos dos arcos gigantes que cruzan el cielo? Quizás la más familiar, a la izquierda, sea la banda central de nuestra Vía Láctea. Este gran disco de estrellas y nebulosas parece rodear gran parte del cielo del sur. Debajo del arco estelar se ve el planeta Marte, de color naranja oxidado, y la galaxia extendida de Andrómeda. ¡Pero esta noche tuvo más! Durante unos minutos durante esta fría noche ártica, apareció un segundo arco gigante rodeando parte del cielo del norte: una aurora. Las auroras están mucho más cerca que las estrellas, ya que están compuestas de aire brillante en lo alto de la atmósfera terrestre. Visible fuera del arco auroral verde es el grupo de estrellas conocido popularmente como la Osa Mayor. La composición digital presentada de 20 imágenes fue capturada a mediados de noviembre de 2022 sobre las islas Lofoten en Noruega. Resumen del año APOD (2023): Conferencia Night Sky Network de RJN</p>
-</div>
+    <h1 class="display-3 text-center mt-5">No events found</h1>
+
 
 
 
