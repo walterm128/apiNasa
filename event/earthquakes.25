@@ -44,15 +44,9 @@
 
   
 
-<h1 class="display-3 text-center mt-2">Imagen astronómica del día (APOD)</h1>
 
-<div class="container-fluid mt-5 text-center" style="height: 100%;">
-    
-    <img src="https://apod.nasa.gov/apod/image/2312/CasA_nircam_1024.jpg" class="text-center mt-2 mx-auto" alt="Supernova Remnant Cassiopeia A" width="100%" />
-    
-    <p class="h2 mt-3"> (2023-12-14)</p>
-    <p class="mt-3 m-5">Las estrellas masivas de nuestra Vía Láctea viven vidas espectaculares. Al colapsar desde vastas nubes cósmicas, sus hornos nucleares se encienden y crean elementos pesados ​​en sus núcleos. Después de sólo unos pocos millones de años para las estrellas más masivas, el material enriquecido regresa al espacio interestelar, donde la formación de estrellas puede comenzar de nuevo. La nube de escombros en expansión conocida como Casiopea A es un ejemplo de esta fase final del ciclo de vida estelar. La luz de la explosión de supernova que creó este remanente se habría visto por primera vez en el cielo del planeta Tierra hace unos 350 años, aunque esa luz tardó 11.000 años en llegar hasta nosotros. Esta nítida imagen NIRCam del telescopio espacial James Webb muestra los filamentos y nudos aún calientes del remanente de supernova. La capa exterior blanquecina y parecida al humo de la onda expansiva en expansión tiene unos 20 años luz de diámetro, mientras que la mancha brillante cerca del centro es una estrella de neutrones, los restos increíblemente densos y colapsados ​​del enorme núcleo estelar. Los ecos de luz de la cataclísmica explosión de la estrella masiva también se identifican en la imagen detallada de Webb del remanente de supernova Cassiopeia A. Observación de esta noche: Las Gemínidas</p>
-</div>
+    <h1 class="display-3 text-center mt-5">No events found</h1>
+
 
 
 
