@@ -44,15 +44,30 @@
 
   
 
-<h1 class="display-3 text-center mt-2">Imagen astronómica del día (APOD)</h1>
 
-<div class="container-fluid mt-5 text-center" style="height: 100%;">
-    
-    <img src="https://apod.nasa.gov/apod/image/2312/BavarianHalos_Werner_960.jpg" class="text-center mt-2 mx-auto" alt="Ice Halos over Bavaria" width="100%" />
-    
-    <p class="h2 mt-3"> (2023-12-20)</p>
-    <p class="mt-3 m-5">¿Qué está causando esos arcos celestes inusuales? Cristales de hielo. Mientras cruzaba un campo de nieve fresca cerca de Füssen, Baviera, Alemania, a principios de este mes, el fotógrafo notó que se había adentrado en una niebla helada. Para que el agua en suspensión se congele y forme una niebla helada se necesitan temperaturas bastante frías y, de hecho, la temperatura del aire ese día se midió muy por debajo de cero. La niebla helada reflejaba la luz del sol poniéndose detrás de la iglesia de St. Coleman. El resultado fue uno de los mayores espectáculos que el fotógrafo haya visto jamás. Primero, los puntos en la imagen presentada no son estrellas de fondo sino hielo y nieve en suspensión. A continuación, se ven dos halos de hielo prominentes: el halo de 22 grados y el halo de 46 grados. También son visibles múltiples arcos, incluidos, de arriba a abajo, antisolar (subsol), circuncenital, Parry, tangente y parhélico (horizontal). Finalmente, la curva en forma de globo que conecta el arco superior con el Sol es la más rara de todas: es el arco helíaco, creado por la reflexión de los lados de cristales de hielo de forma hexagonal suspendidos en orientación horizontal.</p>
-</div>
+<table class="table table-lg table-bordered table-striped w-75  mx-auto mt-5">
+    <thead>
+        <tr class="table-info text-center">
+            <th>Title</th>
+            <th>Description</th>
+            <th>Source</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr>
+            <td>Tropical Cyclone Jelawat</td>
+            <td>None</td>
+            <td>
+                
+                    <a href="https://eonet.gsfc.nasa.gov/api/v3/events/EONET_6466" target="_blank">https://www.metoc.navy.mil/jtwc/products/wp1823.tcw</a>
+                
+            </td>
+        </tr>
+        
+    </tbody>
+</table>
+
 
 
 
