@@ -44,15 +44,30 @@
 
   
 
-<h1 class="display-3 text-center mt-2">Imagen astronómica del día (APOD)</h1>
 
-<div class="container-fluid mt-5 text-center" style="height: 100%;">
-    
-    <img src="https://apod.nasa.gov/apod/image/2312/C2020_V2_ZTF_CHILESCOPE_DEBartlett1024.jpg" class="text-center mt-2 mx-auto" alt="Three Galaxies and a Comet" width="100%" />
-    
-    <p class="h2 mt-3"> (2023-12-21)</p>
-    <p class="mt-3 m-5">Las galaxias distantes abundan en este campo de visión de un grado de amplitud hacia la constelación austral Grus (La Grulla). Pero las tres galaxias espirales de la parte inferior derecha son bastante llamativas. De hecho, las tres galaxias están agrupadas a unos 70 millones de años luz de distancia y, a veces, se las conoce como el Triplete Grus. Comparten el bonito marco telescópico, registrado el 13 de diciembre, con el cometa denominado C/2020 V2 ZTF. Ahora saliendo del Sistema Solar interior y oscilando debajo del plano de la eclíptica en una órbita hiperbólica, el cometa estaba a unos 29 minutos luz de nuestro hermoso planeta en esta imagen. Y aunque el cometa ZTF era más brillante cuando estuvo más cerca del Sol en mayo pasado y más cerca de la Tierra en septiembre de 2023, todavía brilla en los telescopios apuntados hacia los cielos nocturnos del sur, permaneciendo casi tan brillante como las galaxias Grus Triplet.</p>
-</div>
+<table class="table table-lg table-bordered table-striped w-75  mx-auto mt-5">
+    <thead>
+        <tr class="table-info text-center">
+            <th>Title</th>
+            <th>Description</th>
+            <th>Source</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr>
+            <td>Tropical Cyclone Jelawat</td>
+            <td>None</td>
+            <td>
+                
+                    <a href="https://eonet.gsfc.nasa.gov/api/v3/events/EONET_6466" target="_blank">https://www.metoc.navy.mil/jtwc/products/wp1823.tcw</a>
+                
+            </td>
+        </tr>
+        
+    </tbody>
+</table>
+
 
 
 
