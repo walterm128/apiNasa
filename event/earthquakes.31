@@ -44,15 +44,9 @@
 
   
 
-<h1 class="display-3 text-center mt-2">Imagen astronómica del día (APOD)</h1>
 
-<div class="container-fluid mt-5 text-center" style="height: 100%;">
-    
-    <img src="https://apod.nasa.gov/apod/image/2312/solsticesolargraphy1024.jpg" class="text-center mt-2 mx-auto" alt="183 Days in the Sun" width="100%" />
-    
-    <p class="h2 mt-3"> (2023-12-22)</p>
-    <p class="mt-3 m-5">Una única exposición de 183 días con una cámara estenopeica y papel fotográfico dio como resultado este solarógrafo de larga duración. Grabado de solsticio a solsticio, del 21 de junio al 21 de diciembre de 2022, sigue el arco diario del Sol a través de los cielos del planeta Tierra desde Mertola, Portugal. El 21 de junio, el punto más alto y el arco más largo del Sol representan el día más largo y el comienzo astronómico del verano en el hemisferio norte. La fecha del solsticio con menos horas de luz es al comienzo del invierno en el norte, correspondiente al arco más corto y más bajo del Sol en el solargrama de 2022. Para 2023, el solsticio de invierno del norte fue el 22 de diciembre a las 3:27 UTC. Eso es el 21 de diciembre para las zonas horarias de América del Norte.</p>
-</div>
+    <h1 class="display-3 text-center mt-5">No events found</h1>
+
 
 
 
