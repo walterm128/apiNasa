@@ -44,15 +44,30 @@
 
   
 
-<h1 class="display-3 text-center mt-2">Imagen astronómica del día (APOD)</h1>
 
-<div class="container-fluid mt-5 text-center" style="height: 100%;">
-    
-    <img src="https://apod.nasa.gov/apod/image/2312/DSCF6968-Enhanced-NR1024.jpg" class="text-center mt-2 mx-auto" alt="A December Summer Night" width="100%" />
-    
-    <p class="h2 mt-3"> (2023-12-23)</p>
-    <p class="mt-3 m-5">Los colores de un cielo nocturno sereno se capturan en esta exposición de 8 minutos, realizada cerca del solsticio de diciembre de Nueva Zelanda, hemisferio sur, planeta Tierra. Mirando hacia el sur, los rastros de estrellas forman arcos concéntricos cortos alrededor del polo celeste sur del planeta en rotación, ubicado justo en la parte superior del marco. En la parte superior e izquierda del centro hay rastros de las estrellas de la Cruz del Sur y una mancha oscura de la Nebulosa Saco de Carbón de la Vía Láctea. Alpha y Beta Centauri crean los senderos teñidos de amarillo y azul más brillantes, reflejados debajo en las aguas de Hoopers Inlet en la costa del Pacífico de la península de Otago en la Isla Sur. En aquella corta noche de verano de diciembre, la aurora australis también dio matices luminosos, verdes y rojizos al cielo sobre los cerros. Un brillo atmosférico superior distinto de la aurora excitada por colisiones con partículas energéticas, bandas de brillo de aire verdoso pálido causadas por una cascada de reacciones químicas excitadas por la luz solar, se pueden rastrear en bandas diagonales cerca de la parte superior izquierda.</p>
-</div>
+<table class="table table-lg table-bordered table-striped w-75  mx-auto mt-5">
+    <thead>
+        <tr class="table-info text-center">
+            <th>Title</th>
+            <th>Description</th>
+            <th>Source</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr>
+            <td>Tropical Cyclone Jelawat</td>
+            <td>None</td>
+            <td>
+                
+                    <a href="https://eonet.gsfc.nasa.gov/api/v3/events/EONET_6466" target="_blank">https://www.metoc.navy.mil/jtwc/products/wp1823.tcw</a>
+                
+            </td>
+        </tr>
+        
+    </tbody>
+</table>
+
 
 
 
