@@ -44,15 +44,9 @@
 
   
 
-<h1 class="display-3 text-center mt-2">Imagen astronómica del día (APOD)</h1>
 
-<div class="container-fluid mt-5 text-center" style="height: 100%;">
-    
-    <img src="https://apod.nasa.gov/apod/image/2312/MoonAligned_Minato_960.jpg" class="text-center mt-2 mx-auto" alt="Cathedral, Mountain, Moon" width="100%" />
-    
-    <p class="h2 mt-3"> (2023-12-25)</p>
-    <p class="mt-3 m-5">Tomas únicas como ésta requieren planificación. El primer paso es darse cuenta de que un triple alineamiento tan asombroso realmente tiene lugar. El segundo paso es encontrar la mejor ubicación para fotografiarlo. Pero fue el tercer paso: estar allí exactamente en el momento adecuado, y cuando el cielo estaba despejado, fue el más difícil. Cinco veces durante seis años el fotógrafo intentó y encontró mal tiempo. Finalmente, hace apenas diez días, el clima era perfecto y un sueño fotográfico se hizo realidad. Tomada en Piemonte, Italia, la catedral en primer plano es la Basílica de Superga, la montaña en el medio es Monviso y, bueno, ya sabes qué luna está al fondo. Aquí, aunque la Luna poniente fue capturada en una fase creciente, la exposición fue lo suficientemente larga como para que la luz de la Tierra doblemente reflejada, llamada brillo da Vinci, iluminara toda la parte superior de la Luna. Your Sky Surprise: ¿Qué foto mostró APOD en tu cumpleaños? (posterior a 1995)</p>
-</div>
+    <h1 class="display-3 text-center mt-5">No events found</h1>
+
 
 
 
