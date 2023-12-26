@@ -44,15 +44,9 @@
 
   
 
-<h1 class="display-3 text-center mt-2">Imagen astronómica del día (APOD)</h1>
 
-<div class="container-fluid mt-5 text-center" style="height: 100%;">
-    
-    <img src="https://apod.nasa.gov/apod/image/2312/Jellyfish_Payne_960.jpg" class="text-center mt-2 mx-auto" alt="IC 443: The Jellyfish Nebula" width="100%" />
-    
-    <p class="h2 mt-3"> (2023-12-26)</p>
-    <p class="mt-3 m-5">¿Por qué esta medusa nada en un mar de estrellas? A la deriva cerca de la brillante estrella Eta Geminorum, vista a la derecha, la Nebulosa de las Medusas extiende sus tentáculos desde la brillante cresta arqueada de emisión a la izquierda del centro. De hecho, la medusa cósmica es parte del remanente de supernova IC 443 en forma de burbuja, la nube de escombros en expansión de una estrella masiva que explotó. La luz de la explosión llegó por primera vez al planeta Tierra hace más de 30.000 años. Al igual que su prima en aguas astronómicas, se sabe que el remanente de supernova IC 443 de la Nebulosa del Cangrejo alberga una estrella de neutrones, el remanente del núcleo estelar colapsado. La Nebulosa de las Medusas está a unos 5.000 años luz de distancia. A esa distancia, la imagen presentada abarcaría unos 140 años luz de diámetro. Your Sky Surprise: ¿Qué foto mostró APOD en tu cumpleaños? (posterior a 1995)</p>
-</div>
+    <h1 class="display-3 text-center mt-5">No events found</h1>
+
 
 
 
