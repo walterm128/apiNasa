@@ -44,60 +44,8 @@
 
   
 
-<h1 class="display-4 text-center mt-5">Asteroides cercanos</h1>
 
-
-<table class="table table-lg table-bordered table-striped w-75  mx-auto mt-5">
-    <thead>
-        <tr class="table-info text-center">
-            <th>Name</th>
-            <th colspan="2">Diametro estimado</th>
-            <th class="col-md-3">Es potencialmente peligroso</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr class="table-secondary text-center">
-            <td></td>
-            <td><strong>Min (metros)</strong></td>
-            <td><strong>Max (metros)</strong></td>
-            <td></td>
-        </tr>
-        
-        <tr>
-            <td>98943 (2001 CC21)</td>
-            <td>464.0395282463</td>
-            <td>1037.6239294056</td>
-            <td class="text-center">
-                
-                    Yes
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>292220 (2006 SU49)</td>
-            <td>334.6223744549</td>
-            <td>748.2383760735</td>
-            <td class="text-center">
-                
-                    No
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>(2023 YD)</td>
-            <td>21.9156813177</td>
-            <td>49.0049531997</td>
-            <td class="text-center">
-                
-                    Yes
-                
-            </td>
-        </tr>
-        
-    </tbody>
-</table>
+    <h1 class="display-3 text-center mt-5">No events found</h1>
 
 
 
