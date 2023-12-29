@@ -44,15 +44,9 @@
 
   
 
-<h1 class="display-3 text-center mt-2">Imagen astronómica del día (APOD)</h1>
 
-<div class="container-fluid mt-5 text-center" style="height: 100%;">
-    
-    <img src="https://apod.nasa.gov/apod/image/2312/STScI-UranusJWSTcrop.png" class="text-center mt-2 mx-auto" alt="Shakespeare in Space" width="100%" />
-    
-    <p class="h2 mt-3"> (2023-12-29)</p>
-    <p class="mt-3 m-5">En 1986, la Voyager 2 se convirtió en la única nave espacial en explorar de cerca el planeta gigante de hielo Urano. Aún así, esta imagen recién publicada de la NIRCam (cámara de infrarrojo cercano) del telescopio espacial James Webb ofrece una visión detallada del mundo distante. El planeta exterior inclinado gira sobre su eje una vez cada aproximadamente 17 horas. Su polo norte apunta actualmente cerca de nuestra línea de visión, ofreciendo vistas directas de su hemisferio norte y de un débil pero extenso sistema de anillos. De las 27 lunas conocidas del planeta gigante, 14 están anotadas en la imagen. Los más brillantes muestran indicios de los picos de difracción característicos de Webb. Y aunque estos mundos del Sistema Solar exterior eran desconocidos en la época de Shakespeare, todas menos dos de las 27 lunas de Urano llevan nombres de personajes de las obras del bardo inglés.</p>
-</div>
+    <h1 class="display-3 text-center mt-5">No events found</h1>
+
 
 
 
