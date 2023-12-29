@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/apiNasa/favicon.png">
+
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <title>NASA APIs</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #008edf;">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-2" href="/apiNasa/">
+        NASA API
+      </a>
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item ms-3">
+          <a class="nav-link" href="/apiNasa/events/">Seguimiento de eventos</a>
+        </li>
+        <li class="nav-item ms-3">
+          <a class="nav-link" href="/apiNasa/asteroids/">Asteroides cercanos</a>
+        </li>
+        <li class="nav-item ms-3">
+          <a class="nav-link" href="/apiNasa/marsrover/Opportunity/navcam/">Fotos Mars Rover</a>
+        </li>
+        <li class="nav-item ms-3">
+          <a class="nav-link" href="/apiNasa/astronautas/">Personas en el Espacio</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  
+
+<h1 class="display-4 text-center mt-5">Asteroides cercanos</h1>
+
+
+<table class="table table-lg table-bordered table-striped w-75  mx-auto mt-5">
+    <thead>
+        <tr class="table-info text-center">
+            <th>Name</th>
+            <th colspan="2">Diametro estimado</th>
+            <th class="col-md-3">Es potencialmente peligroso</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="table-secondary text-center">
+            <td></td>
+            <td><strong>Min (metros)</strong></td>
+            <td><strong>Max (metros)</strong></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <td>280491 (2004 MO7)</td>
+            <td>417.4024333919</td>
+            <td>933.340215038</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>289227 (2004 XY60)</td>
+            <td>459.7851882794</td>
+            <td>1028.1109360402</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>418849 (2008 WM64)</td>
+            <td>214.0695896707</td>
+            <td>478.6741544192</td>
+            <td class="text-center">
+                
+                    No
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>(2010 UK)</td>
+            <td>11.6025908209</td>
+            <td>25.9441817907</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>(2016 AH165)</td>
+            <td>104.8467508916</td>
+            <td>234.4444622136</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>(2017 TF2)</td>
+            <td>231.5021222103</td>
+            <td>517.6544821978</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>(2020 FN3)</td>
+            <td>35.3634784299</td>
+            <td>79.07514169</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>(2022 NK)</td>
+            <td>9.3444765092</td>
+            <td>20.8948846888</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>(2023 MJ)</td>
+            <td>49.7227312909</td>
+            <td>111.1834071935</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>(2023 ME1)</td>
+            <td>20.7278843377</td>
+            <td>46.3489584089</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>(2023 XC8)</td>
+            <td>29.2924013913</td>
+            <td>65.4998007352</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>(2023 YZ)</td>
+            <td>21.1326994537</td>
+            <td>47.2541525266</td>
+            <td class="text-center">
+                
+                    Yes
+                
+            </td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+
+</body>
+
+
+<div class="container-fluid" style="background-color: #008edf;position:absolute;height:50px;">
+  <div id="footer">
+    <p>&copy 2023 Flask, Frozen y Google Translate <a href="https://api.nasa.gov/">api.nasa.gov</a> </p>
+  </div>
+</div>
+
+
+</html>
