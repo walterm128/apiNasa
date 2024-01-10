@@ -10,3 +10,4 @@ Sitio Web https://walterm128.github.io/apiNasa/
 
 Django, Flask a HTML Estático
 Generado todos los día de forma automática
+Y traducido automáticamente con Google Translate
