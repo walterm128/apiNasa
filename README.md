@@ -7,3 +7,5 @@ Sitio Web https://walterm128.github.io/apiNasa/
   * Fix: ciertos links de Eventos
 
 ![alt](Screenshot2023NASA_APIs.jpg)
+
+Django, Flask a HTML Estático
