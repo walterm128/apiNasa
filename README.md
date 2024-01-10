@@ -8,6 +8,6 @@ Sitio Web https://walterm128.github.io/apiNasa/
 
 ![alt](Screenshot2023NASA_APIs.jpg)
 
-Django, Flask a HTML Estático
-Generado todos los día de forma automática
-Y traducido automáticamente con Google Translate
+Django, Flask a HTML Estático\
+Generado todos los día de forma automática\
+Y traducido automáticamente con Google Translate\
