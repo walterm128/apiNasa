@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/apiNasa/favicon.png">
+  <link rel="icon" type="image/png" href="https://api.nasa.gov/assets/img/favicons/favicon-192.png">
+  
+  <script src="https://kit.fontawesome.com/396a3d564b.js" crossorigin="anonymous"></script>
 
   <!-- Latest compiled and minified CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -31,28 +33,49 @@
       padding: 10px;
       vertical-align: middle;
     }
+    
+    .textnavbar {
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    
+    /* Efect hover link */
+    .custom-link {
+        color: #95d8ff;
+    }
+    
+    .custom-link:hover {
+        color: #ddf2ff;
+    }
+    
+    body {background-color: #1F2122; color: white}
+    
+    td {color: white}
+    
   </style>
   <title>NASA APIs</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #008edf;">
+  <nav class="navbar navbar-expand-sm navbar-dark textnavbar" style="background-color: #008edf;">
     <div class="container-fluid">
       <a class="navbar-brand ms-2" href="/apiNasa/">
+        <img src="https://api.nasa.gov/assets/img/favicons/favicon-192.png" width="35px" />
         NASA API
       </a>
       <ul class="navbar-nav me-auto">
         <li class="nav-item ms-3">
-          <a class="nav-link" href="/apiNasa/events/">Seguimiento de eventos</a>
+          <a class="nav-link" href="/apiNasa/events/"><i class="fa-regular fa-calendar-check"></i>Seguimiento de eventos</a>
         </li>
         <li class="nav-item ms-3">
-          <a class="nav-link" href="/apiNasa/asteroids/">Asteroides cercanos</a>
+          <a class="nav-link" href="/apiNasa/asteroids/"><i class="fa-solid fa-meteor"></i>Asteroides cercanos</a>
         </li>
         <li class="nav-item ms-3">
-          <a class="nav-link" href="/apiNasa/marsrover/Opportunity/navcam/">Fotos Mars Rover</a>
+          <a class="nav-link" href="/apiNasa/marsrover/Opportunity/navcam/"><i class="fa-solid fa-camera"></i>Fotos Mars Rover</a>
         </li>
         <li class="nav-item ms-3">
-          <a class="nav-link" href="/apiNasa/astronautas/">Personas en el Espacio</a>
+          <a class="nav-link" href="/apiNasa/astronautas/"><i class="fa-solid fa-person"></i>Personas en el Espacio</a>
         </li>
 
       </ul>
@@ -63,7 +86,7 @@
 
 <div class="w3-container mt-5">
 
-<h3>Spirit -- fhaz</h3>
+<h3> -- </h3>
 
 <table class="table table-lg table-bordered table-striped mt-5">
     <thead>
@@ -90,121 +113,7 @@
 </div>
 
 
-<div class="w3-container mt-5">
-    <div class="container-fluid">
-        <div class="row">
-            
-            <div class="col-lg-3 mt-5">
-                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/f/045/2F130352973EFF0800P1120L0M1-BR.JPG" width="300" height="250" class="rounded" />
-                <div class="card-body">
-                    <p><strong>Nombre del Rover:</strong> Spirit</p>
-                    <p><strong>Cámara:</strong> Front Hazard Avoidance Camera (FHAZ)</p>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="col-lg-3 mt-5">
-                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/f/045/2F130352973EFF0800P1120R0M1-BR.JPG" width="300" height="250" class="rounded" />
-                <div class="card-body">
-                    <p><strong>Nombre del Rover:</strong> Spirit</p>
-                    <p><strong>Cámara:</strong> Front Hazard Avoidance Camera (FHAZ)</p>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="col-lg-3 mt-5">
-                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/f/045/2F130356488EFF0800P1110L0M1-BR.JPG" width="300" height="250" class="rounded" />
-                <div class="card-body">
-                    <p><strong>Nombre del Rover:</strong> Spirit</p>
-                    <p><strong>Cámara:</strong> Front Hazard Avoidance Camera (FHAZ)</p>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="col-lg-3 mt-5">
-                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/f/045/2F130356488EFF0800P1110R0M1-BR.JPG" width="300" height="250" class="rounded" />
-                <div class="card-body">
-                    <p><strong>Nombre del Rover:</strong> Spirit</p>
-                    <p><strong>Cámara:</strong> Front Hazard Avoidance Camera (FHAZ)</p>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="col-lg-3 mt-5">
-                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/f/045/2F130356657EFF0800P1130L0M1-BR.JPG" width="300" height="250" class="rounded" />
-                <div class="card-body">
-                    <p><strong>Nombre del Rover:</strong> Spirit</p>
-                    <p><strong>Cámara:</strong> Front Hazard Avoidance Camera (FHAZ)</p>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="col-lg-3 mt-5">
-                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/f/045/2F130356657EFF0800P1130R0M1-BR.JPG" width="300" height="250" class="rounded" />
-                <div class="card-body">
-                    <p><strong>Nombre del Rover:</strong> Spirit</p>
-                    <p><strong>Cámara:</strong> Front Hazard Avoidance Camera (FHAZ)</p>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="col-lg-3 mt-5">
-                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/f/045/2F130364136EFF08AMP1201L0M1-BR.JPG" width="300" height="250" class="rounded" />
-                <div class="card-body">
-                    <p><strong>Nombre del Rover:</strong> Spirit</p>
-                    <p><strong>Cámara:</strong> Front Hazard Avoidance Camera (FHAZ)</p>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="col-lg-3 mt-5">
-                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/f/045/2F130364136EFF08AMP1201R0M1-BR.JPG" width="300" height="250" class="rounded" />
-                <div class="card-body">
-                    <p><strong>Nombre del Rover:</strong> Spirit</p>
-                    <p><strong>Cámara:</strong> Front Hazard Avoidance Camera (FHAZ)</p>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="col-lg-3 mt-5">
-                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/f/045/2F130364765EFF0900P1210L0M1-BR.JPG" width="300" height="250" class="rounded" />
-                <div class="card-body">
-                    <p><strong>Nombre del Rover:</strong> Spirit</p>
-                    <p><strong>Cámara:</strong> Front Hazard Avoidance Camera (FHAZ)</p>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="col-lg-3 mt-5">
-                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/f/045/2F130364765EFF0900P1210R0M1-BR.JPG" width="300" height="250" class="rounded" />
-                <div class="card-body">
-                    <p><strong>Nombre del Rover:</strong> Spirit</p>
-                    <p><strong>Cámara:</strong> Front Hazard Avoidance Camera (FHAZ)</p>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="col-lg-3 mt-5">
-                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/f/045/2F130364309EDN0900F0006L0M1-BR.JPG" width="300" height="250" class="rounded" />
-                <div class="card-body">
-                    <p><strong>Nombre del Rover:</strong> Spirit</p>
-                    <p><strong>Cámara:</strong> Front Hazard Avoidance Camera (FHAZ)</p>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="col-lg-3 mt-5">
-                <img class="card-img-top" src="http://mars.nasa.gov/mer/gallery/all/2/f/045/2F130364309EDN0900F0006R0M1-BR.JPG" width="300" height="250" class="rounded" />
-                <div class="card-body">
-                    <p><strong>Nombre del Rover:</strong> Spirit</p>
-                    <p><strong>Cámara:</strong> Front Hazard Avoidance Camera (FHAZ)</p>
-                    </a>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-</div>
+    <h1 class="display-4 text-center mt-5">No hay fotos</h1>
 
 
 
@@ -222,9 +131,10 @@
 </body>
 
 
-<div class="container-fluid" style="background-color: #008edf;position:absolute;height:50px;">
+<div class="container-fluid textnavbar" style="background-color: #008edf;position:absolute;height:70px;">
   <div id="footer">
-    <p>&copy 2025 Flask, Frozen y Google Translate <a href="https://api.nasa.gov/">api.nasa.gov</a> </p>
+  </br>
+    <p>&copy  Flask, Frozen y Google Translate <a class="textnavbar custom-link" href="https://api.nasa.gov/" target="_blank">api.nasa.gov</a></p>
   </div>
 </div>
 
